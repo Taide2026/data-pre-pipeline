@@ -1,0 +1,3 @@
+# One video path per line.
+# /absolute/path/to/video.mp4
+

@@ -1,0 +1,12 @@
+# Reference configuration. The CLI currently uses argparse; keep this file as
+# the stable place to document defaults for future config-file loading.
+model: qwen/qwen3-vl-8b-instruct
+review_model: qwen/qwen3-vl-32b-instruct
+num_frames: 8
+max_words: 32
+format: jsonl
+dataset_prefix: videos
+temperature: 0.2
+review_temperature: 0
+max_retries: 3
+

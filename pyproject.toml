@@ -1,0 +1,17 @@
+[project]
+name = "video-caption-preprocessor"
+version = "0.1.0"
+description = "Reusable video preprocessing pipeline for generating QA-checked captions."
+requires-python = ">=3.10"
+dependencies = [
+  "requests>=2.31.0",
+  "tqdm>=4.66.0",
+]
+
+[project.scripts]
+video-captioner = "video_caption_preprocessor.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
